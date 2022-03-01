@@ -1,0 +1,1 @@
+class Cidade:  def __init__(self, nome, distancia):    self.nome = nome    self.distancia = distancia    self.visitado = False    self.adjacentes = []  def addCidadeAdjacente(self, cidade):    self.adjacentes.append(cidade)
